@@ -49,7 +49,7 @@ class Cliente(dni:String, listacuentasInicial: MutableList<Cuenta>) { /*creamos 
     fun mostrarCliente(){                 /* función para mostrar toda la información del cliente*/
         println("Cliente con dni: ${this.dni}")
         for (c in this.listacuentas){
-            println("Cuenta número ${c.numcuenta} con saldo ${c.saldo} euros")
+            println("Cuenta número ${c.numcuenta} con un saldo de ${c.saldo} euros")
         }
     }
 }
